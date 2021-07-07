@@ -1,0 +1,90 @@
+h1{
+    color: white;
+    margin-left: 30px;
+    display: flex;
+}
+
+.header{
+    border: solid;
+    display: flex;
+}
+
+.header{
+    background-color: #ddee00;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.origami{
+    display: flex;
+    font-family: fantasy;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+    font-family: fantasy;
+}
+
+body{
+    margin: 0px;
+    background-color: #dddddd;
+}
+
+
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: red;
+}
+
+.menu{
+    margin-right: 30px;
+    display: flex;
+}
+
+.menu a{
+    margin-left: 20px;
+    display: flex;
+}
+
+.item{
+    position: relative;
+    display: flex;
+}
+
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity:0;
+    
+}
+
+.item:hover p{
+    opacity: 1;
+}
+
+.item:hover img{
+    opacity: 0.33;
+}
