@@ -49,6 +49,16 @@ body{
 
 
 
+.origami p{
+    color: thistle;
+    font-size: 50px;
+    font-family: fantasy;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 a:link{
     color: white;
 }
@@ -76,15 +86,19 @@ a:visited{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    
     opacity:0;
     
 }
 
-.item:hover p{
+.origami:hover p{
     opacity: 1;
+    text-align: center;
 }
 
-.item:hover img{
-    opacity: 0.33;
+.origami:hover img{
+    opacity: 0.5;
+    text-align: center;
+    transform: scale(1.2);
+    
 }
